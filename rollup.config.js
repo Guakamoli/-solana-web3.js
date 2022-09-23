@@ -210,7 +210,7 @@ function generateConfig(configType, format) {
 
 export default [
   generateConfig('node'),
-  generateConfig('browser'),
-  generateConfig('browser', 'iife'),
+  // generateConfig('browser'),
+  // generateConfig('browser', 'iife'),
   generateConfig('react-native'),
 ];
